@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ActTimeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testPack.TestNGClassForActTimeHeader">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="verifyThatTimeTrackText"/>
+          <include name="beforeSuit"/>
+          <include name="launchBrowser"/>
+          <include name="afterSuit"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.testPack.TestNGClassForActTimeHeader -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [ActTimeSuite] -->
