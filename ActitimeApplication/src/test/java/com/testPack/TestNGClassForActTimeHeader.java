@@ -105,7 +105,7 @@ public class TestNGClassForActTimeHeader extends BaseClass{
 	@AfterSuite
 	public void afterSuit() {
 		
-		System.out.println("After Suit2");
+		System.out.println("After Suit2 method");
 	}
 	
 	
